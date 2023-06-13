@@ -10,4 +10,5 @@ const increment = function (e: Event) {
         span.innerText = i.toString();
     }
 }
+
 compteur.addEventListener('click', increment);
